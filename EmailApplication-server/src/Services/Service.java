@@ -36,8 +36,9 @@ public class Service {
 
     //command to send an email
     public final static String SEND_COMMAND = "send";
-    public final static String SUCCESSFUL_SENT = "SEND";
+    public final static String SUCCESSFUL_SENT = "SENT";
     public final static String FAILED_SEND = "FAILED!";
+       public final static String SENDING = "SENDING!";
 
 
     //command delete email
@@ -64,6 +65,15 @@ public class Service {
     public final static String VIEW_COMMAND = "viewAll";
     public final static String EMAIL_SEPARATOR = "##";
 
+    //command to get list of all unread emails
+    public final static String GET_UNREAD_EMAILS= "GET_UNREAD";
+    public final static String SEPARATOR = "##";
+    public final static String NO_NEW_MAILS = "NO MAILS";
+    
+     //command to get list of all read emails
+    public final static String GET_READ_EMAILS= "GET_READ";
+    public final static String READ_SEPARATOR = "##";
+    public final static String NEW_MAILS = "NOT READ";
     //command to signout
     public final static String LOGOUT_COMMAND = "logout";
     public final static String SIGN_OFF = "GOODBYE";
